@@ -1,0 +1,17 @@
+.container{
+    border: 3px solid red;
+    height: 900px;
+}
+
+img{
+    width: 200px;
+}
+
+#borderId{
+    display: flex;
+    gap: 10px;
+}
+#color{
+    background: grey;
+    margin-right: 20px;
+}

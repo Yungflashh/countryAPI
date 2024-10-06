@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flag</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+</head>
+<body>
+
+    <nav id="navTag">
+        <h2>Where in the world</h2>
+
+        <p id="drkmode"> <i class="fa-solid fa-moon"></i> Dark Mode</p>
+
+
+    </nav>
+
+    <div class="btnDiv">
+        <input class="search-field" id="searchInput" type="search" placeholder="Search for a Country" onchange="displayCountry()"> 
+
+    <select class="select-dropdown" name="" id="dropDown">
+        <option disabled selected>Choose Region</option>
+        <option value="africa">Africa</option>
+        <option value="Europe">Europe</option>
+        <option value="North America">North America</option>
+       
+    </select>
+
+    </div>
+
+    
+    <div class="mainContainer" id="mainContainer">
+        <div class="mainContainer" id="searchContainer">
+        </div>
+    
+        <div class="filterContainer" id="filterContainer">
+    
+        </div>
+
+
+
+
+    </div>
+
+    
+
+    
+
+</body>
+</html>

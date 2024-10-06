@@ -1,0 +1,139 @@
+body{
+    background:grey
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal offset, Vertical offset, Blur radius, Color */
+    margin-bottom: 30px;
+    background-color: white ;
+    border-radius: 20px;
+}
+
+
+nav>:nth-child(2):hover{
+    cursor: pointer;
+
+}
+nav>:nth-child(2):active{
+    color: rgb(230, 170, 170);
+}
+
+img{
+    width: 300px;
+}
+
+.drkmode{
+    background: rgb(17, 11, 11);
+}
+.whitemode{
+    background: white
+}
+.whiteText{
+    color: white;
+}
+.blackText{
+    color: black;
+}
+
+
+.hidden{
+    visibility: hidden;
+}
+
+
+.btnDiv{
+    display: flex;
+    justify-content: space-between;
+}
+#mainContainer{
+    /* border: 2px solid red; */
+    /* height: 100vh; */
+    position: relative;
+}
+#searchContainer{
+    /* border: 2px solid blue; */
+    /* height: 100vh; */
+    display: flex;
+    position: absolute;
+}
+
+.SearchContainer{
+    display: flex;
+    margin:  100px 0px 0px 150px;
+    /* border: 2px solid blue; */
+
+}
+
+.SearchContainer img{
+   margin-right: 40px;
+}
+
+.filterResult{
+    /* background: grey; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    color:white;
+    padding: 5px;
+}
+#filterContainer{
+    /* border: 2px solid yellow; */
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.textDiv{
+    /* border: 2px solid yellow; */
+    /* width: 100%; */
+}
+
+.details{
+    display: flex;
+    gap: 50px;
+}
+
+
+/* Search Field */
+.search-field {
+    padding: 12px 15px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-field:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Select Dropdown */
+.select-dropdown {
+    padding: 12px 35px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 16px;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23007BFF"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-dropdown:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
